@@ -54,6 +54,7 @@ cacheSolve <- function(x, ...) {
     m <- x$getinvmatrix()
         
     if(!is.null(m)) {
+	## this message is included here to show that the code works as expected    
         message("getting cached data")
         ## Return a matrix that is the inverse of 'x'
         return(m)
